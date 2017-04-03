@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css?family=Avenir+Next');
+
+/* Add a black background color to the top navigation */
+.nav {
+    background-color: #1a1a1a;
+    overflow: hidden;
+    font-family: "Avenir Next" !important;
+    /*weight: 100;*/
+    font-size: 16px;
+    style: normal;
+    size: 14px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#BarNav {
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+
+    display: inline-block;
+    float: none;
+    color: rgba(255,255,255,.5);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+    color: #f2f0ee;
+    background-color: #1a1a1a !important;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+    color: rgba(255,255,255,0.9);
+}
+
+#helpred {
+  background-color: #94261C;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+#map {
+  padding-top: 55px;
+  max-width: 80%;
+}
