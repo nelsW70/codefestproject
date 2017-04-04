@@ -5,18 +5,17 @@
 .nav {
     background-color: #1a1a1a;
     overflow: hidden;
-    font-family: "Avenir Next" !important;
+    font-family: "Futura PT" , "Avenir Next";
     /*weight: 100;*/
     font-size: 16px;
     style: normal;
-    size: 14px;
     line-height: 1.6em;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-style: normal;
     text-decoration: none;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .navbar .navbar-nav {
@@ -35,7 +34,6 @@
 
 /* Style the links inside the navigation bar */
 .nav a {
-
     display: inline-block;
     float: none;
     color: rgba(255,255,255,.5);
@@ -51,8 +49,9 @@
 }
 
 /* Add a color to the active/current link */
-.nav a.active {
+.nav>li>a:focus, .nav>li>a:hover {
     color: rgba(255,255,255,0.9);
+    background-color: #1a1a1a;
 }
 
 #helpred {
@@ -65,5 +64,31 @@ body {
 
 #map {
   padding-top: 55px;
-  max-width: 80%;
+  max-width: 50%;
+}
+
+.formContent {
+  text-align: left;
+  display: inline-block;
+}
+
+#questionaire {
+  text-align: center;
+  padding-top: 150px;
+}
+
+#story {
+   max-width: 600px;
+   padding-top: 45px;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.form-group, .checkbox, #questionaire {
+     color: #f2f0ee;
+     font-size: 15px;
+     font-family: Futura PT;
+     font-weight: 200;
 }
