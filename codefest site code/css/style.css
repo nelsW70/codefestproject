@@ -3,14 +3,13 @@
 .nav {
     background-color: #1a1a1a;
     overflow: hidden;
-    font-family: "Futura PT" , "Nunito", sans-serif;
-    /*weight: 100;*/
-    font-size: 16px;
+    font-family: "futura-pt", "Nunito", sans-serif;
+    font-size: 10px;
     style: normal;
     line-height: 1.6em;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-style: normal;
+    letter-spacing: .2em;
+    font-weight: 300;
     text-decoration: none;
     text-align: center;
     padding-top: 25px;
@@ -72,7 +71,7 @@ body {
 
 #questionaire {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 125px;
 }
 
 #story {
@@ -85,10 +84,15 @@ body {
 }
 
 .form-group, .checkbox, #questionaire {
-     color: #f2f0ee;
+     color: #FDFEFE;
      font-size: 15px;
-     font-family: Futura PT;
+     font-family: "futura-pt";
+     line-height: 1.4em;
+     text-transform: none;
+     letter-spacing: .075em;
      font-weight: 200;
+     font-style: normal;
+     text-decoration: none;
 }
 
 #lovebutt {
@@ -103,7 +107,7 @@ body {
 
 #contextualinfo, #McCoyinfo, .resources {
    font-size: 16px;
-   font-family: futura-pt;
+   font-family: "futura-pt";
    line-height: 1.8em;
    text-transform: none;
    letter-spacing: .075em;
@@ -111,6 +115,7 @@ body {
    font-style: normal;
    text-decoration: none;
    color: #f4f0ff;
+
 }
 
 #contextualinfo {

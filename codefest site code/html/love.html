@@ -11,16 +11,27 @@
     crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>contextual camouflage</title>
+    <script src="http://www.google.com/jsapi"></script>
+    <script>
+     google.load("jquery", "1");
+     google.load("jqueryui", "1");
+    </script>
+    <script>
+    $(document).ready(function()
+    {
+     $('body').hide().fadeIn(2000);
+    });
+    </script>
   </head>
   <body>
     <nav class="navbar" id="myTopnav">
       <div class="container" id="BarNav">
         <ul class="nav navbar-nav" id="deBoot">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#yourstory">Your Story</a></li>
-          <li><a href="#contextualcamouflage">Contextual Camouflage</a></li>
-          <li><a href="#sendlove">Send Love</a></li>
-          <li><a id="helpred" href="#helpresources">Help Resources</a></li>
+          <li><a href="codefestproject.html">Home</a></li>
+          <li><a href="codefestprojectStory.html">Your Story</a></li>
+          <li><a href="about.html">Contextual Camouflage</a></li>
+          <li><a href="love.html">Send Love</a></li>
+          <li><a id="helpred" href="resources.html">Help Resources</a></li>
         </ul>
     </div>
     </nav>
