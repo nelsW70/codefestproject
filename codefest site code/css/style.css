@@ -1,11 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css?family=Avenir+Next');
-
 /* Add a black background color to the top navigation */
 .nav {
     background-color: #1a1a1a;
     overflow: hidden;
-    font-family: "Futura PT" , "Avenir Next";
+    font-family: "Futura PT" , "Nunito", sans-serif;
     /*weight: 100;*/
     font-size: 16px;
     style: normal;
