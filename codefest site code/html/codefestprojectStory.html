@@ -15,6 +15,13 @@
     $(document).ready(function()
     {
      $('body').hide().fadeIn(2000);
+     var text_max = 200;
+     $('#count_message').html(text_max + ' remaining');
+     $('#cats').keyup(function() {
+       var text_length = $('#cats').val().length;
+       var text_remaining = text_max - text_length;
+       $('#count_message').html(text_remaining + ' remaining');
+     });
     });
     </script>
   </head>
@@ -80,8 +87,9 @@
         <div class="container" id="story">
             <div class="form-group">
               <label for="share your story">Share your story</label>
-              <textarea class="form-control" rows="5" id="comment"></textarea>
+              <textarea class="form-control" rows="5" maxlength="300" id="cats"></textarea>
             </div>
+            <h6 class="pull-right" id="count_message"></h6>
             <button type="submit" class="btn btn-primary btn-lg btn-primary">submit</button>
           </form>
         </div>
