@@ -15,10 +15,15 @@
     $(document).ready(function()
     {
      $('body').hide().fadeIn(2000);
-     var text_max = 200;
+     var text_max = 250;
      $('#count_message').html(text_max + ' remaining');
      $('#cats').keyup(function() {
        var text_length = $('#cats').val().length;
+       if (text_length > text_max)
+       {
+         $('#cats').val($('#cats').val().slice(0, text_max));
+         text_length = text_max;
+       }
        var text_remaining = text_max - text_length;
        $('#count_message').html(text_remaining + ' remaining');
      });
@@ -90,7 +95,15 @@
               <textarea class="form-control" rows="5" maxlength="300" id="cats"></textarea>
             </div>
             <h6 class="pull-right" id="count_message"></h6>
-            <button type="submit" class="btn btn-primary btn-lg btn-primary">submit</button>
+            <!-- <button type="submit" class="btn btn-primary btn-lg btn-primary">submit</button> -->
+            <div class="container" id="sharebox">
+            <figure>
+              <div>
+                <div class="submitstory">share</div>
+                <div class="submitstory">thank you</div>
+              </div>
+            </figure>
+          </div>
           </form>
         </div>
         </div>
