@@ -9,6 +9,10 @@
   font-family: "Avenir Light";
 }
 
+body {
+  height: 100%;
+}
+
 /* Add a black background color to the top navigation */
 
 .nav {
@@ -102,34 +106,6 @@ body {
      text-decoration: none;
 }
 
-.btn-danger {
-  background-color: #793b39 !important;
-  border-color: #312120 !important;
-  font-family: "futura-pt", "Nunito", sans-serif;
-  min-width: 85px;
-  max-height: 85px;
-  font-size: 15px;
-}
-
-.btn-danger:focus,.btn-danger:active, .btn-danger:hover {
-   outline: none !important;
-   background-color: #793b39;
-   border-color: #312120;
-   font-size: 15px;
-}
-
-.btn-primary {
-  font-family: "futura-pt", "Nunito", sans-serif;
-  background-color: #193246;
-  border-color: #09090a;
-}
-
-.btn-primary:focus,.btn-primary:active, .btn-primary:hover {
-   outline: none !important;
-   background-color: #193246;
-   border-color: #09090a;
-}
-
 #contextualinfo, #McCoyinfo {
    font-size: 18px;
    font-family: "futura-pt", "Nunito", sans-serif;
@@ -155,6 +131,10 @@ body {
 
 #logo {
   padding-top: 25px;
+}
+
+#Academylogo {
+  padding-top: 55px;
 }
 
 .resources {
@@ -246,10 +226,6 @@ a:focus {
   background-color: white;
 }
 
-#Academylogo {
-  padding-top: 55px;
-}
-
 .bothlogos {
   padding-right: 35px;
   /*margin: auto;
@@ -322,10 +298,6 @@ figure:hover div {
   background: #fff;
   transform: rotateX(90deg) translate3d(0, 0, 30px);
   -webkit-transform: rotateX(90deg) translate3d(0, 0, 30px);
-}
-
-body {
-  height: 100%;
 }
 
 #sharebox {
